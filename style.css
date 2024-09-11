@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
+/* https://irs.www.warnerbros.com/gallery-v2-jpeg/vacation_photo19.jpg */
+
+/* linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0)); */
 
 * {
   box-sizing: border-box;
@@ -11,11 +14,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(
-    rgb(233, 213, 255),
-    rgb(192, 132, 252),
-    rgb(107, 33, 168)
-  );
+  background-image: url('https://irs.www.warnerbros.com/gallery-v2-jpeg/vacation_photo19.jpg');
+  background-postion: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 
@@ -47,7 +49,7 @@ h3 {
 }
 
 .button {
-  background-color: #7423c4;
+  background-color: #4a495c;
   color: #fff;
   padding: 12px 30px;
   border-radius: 10px;
