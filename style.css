@@ -3,6 +3,12 @@
 
 /* linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0)); */
 
+
+/* background-image: url('https://irs.www.warnerbros.com/gallery-v2-jpeg/vacation_photo19.jpg');
+background-postion: center;
+background-repeat: no-repeat;
+background-size: 100% 100%; */
+
 * {
   box-sizing: border-box;
 }
@@ -14,10 +20,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('https://irs.www.warnerbros.com/gallery-v2-jpeg/vacation_photo19.jpg');
-  background-postion: center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background: linear-gradient(to right, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+ 
 }
 
 
